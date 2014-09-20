@@ -1,0 +1,11 @@
+%article
+  %p Have you ever wondered how decisions are made in a Role Playing Game such as Dragon Warrior? In this text adventure you'll see how your choices lead to particular results. It's the same sort of process that's at work in the computer chips of your NES &mdash; what we call "if, then" statements. This is also a good way to learn about the strategy of Dragon Warrior and have some fun.
+  %h3= link_to "Start", "#", data: { view_id: "start" }
+
+%script(type="text/x-handlebars" data-id="page")
+  %article
+    %p {{body}}
+    %ol
+      {{#each actions}}
+      %li= link_to "{{text}}", "#", data: { page: "{{id}}" }
+      {{/each}}
