@@ -4,4 +4,4 @@ While putting my Nintendo Power issues in magazine bags, I was flipping through 
 
 ## Running locally
 
-The site is created with Middleman. See the (documentation)[http://middlemanapp.com] for more info. To get the application running, install the gems (Bundler works nice) and run `middleman server`. To build the site as static assets, type `middleman build`.
+The site is created with Middleman. See the [documentation](http://middlemanapp.com) for more info. To get the application running, install the gems (Bundler works nice) and run `middleman server`. To build the site as static assets, type `middleman build`.
